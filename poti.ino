@@ -1,3 +1,6 @@
+//Dieses Programm liest den Drehpotentiometer aus
+
+
 int throttlePin = 0;
  
 void setup()

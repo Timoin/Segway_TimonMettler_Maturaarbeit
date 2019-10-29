@@ -1,4 +1,3 @@
-
 #include "I2Cdev.h"
 #include <PID_v1.h>
 #include "MPU6050_6Axis_MotionApps20.h"
@@ -173,7 +172,7 @@ void setup() {
     Serial.println(F("Initializing DMP..."));
     devStatus = mpu.dmpInitialize();
 
-    // Gyro Offset
+    // Supply Gyro-Offset from Offset programm
     mpu.setXGyroOffset(118);
     mpu.setYGyroOffset(65);
     mpu.setZGyroOffset(15);
